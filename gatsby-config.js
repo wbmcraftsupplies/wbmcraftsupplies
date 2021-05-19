@@ -2,14 +2,13 @@ require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
-    siteTitle: "gatsby-starter-shopify",
-    siteTitleDefault: "gatsby-starter-shopify by @GatsbyJS",
-    siteUrl: "https://shopify-demo.gatsbyjs.com",
+    siteTitle: "WBM Craft Supplies",
+    siteTitleDefault: "WBM Craft Supplies",
+    siteUrl: "https://wbmcraftsupplies.com",
     hrefLang: "en",
-    siteDescription:
-      "A Gatsby starter using the latest Shopify plugin showcasing a store with product overview, individual product pages, and a cart.",
+    siteDescription: "Everything you need to craft.",
     siteImage: "/default-og-image.jpg",
-    twitter: "@gatsbyjs",
+    twitter: "@wbmsupplies",
   },
   flags: {
     FAST_DEV: true,
@@ -32,11 +31,11 @@ module.exports = {
     "gatsby-plugin-gatsby-cloud",
     // Add your Google Analytics ID to the .env file to enable
     // Otherwise, this plugin can be removed
-    process.env.GOOGLE_ANALYTICS_ID && {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-      },
-    },
+    // process.env.GOOGLE_ANALYTICS_ID && {
+    //   resolve: "gatsby-plugin-google-analytics",
+    //   options: {
+    //     trackingId: process.env.GOOGLE_ANALYTICS_ID,
+    //   },
+    // },
   ].filter(Boolean),
 }

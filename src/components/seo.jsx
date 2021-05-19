@@ -86,7 +86,7 @@ export function Seo({
       <script
         async
         defer
-        data-domain="wbm-craft-supplies.myshopify.com"
+        data-domain="wbmcraftsupplies.gatsbyjs.io"
         src="https://plausible.io/js/plausible.js"
       ></script>
       {children}
