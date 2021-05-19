@@ -83,6 +83,12 @@ export function Seo({
         sizes="180x180"
         href="/apple-touch-icon.png"
       />
+      <script
+        async
+        defer
+        data-domain="wbm-craft-supplies.myshopify.com"
+        src="https://plausible.io/js/plausible.js"
+      ></script>
       {children}
     </Helmet>
   )
